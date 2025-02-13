@@ -8,3 +8,4 @@ file(GLOB_RECURSE PYBIND_DEBUG_SOURCES
 )
 pybind11_add_module(${PROJECT_NAME} MODULE ${PYBIND_DEBUG_SOURCES})
 target_include_directories(${PROJECT_NAME} PRIVATE ${PYBIND11_INCLUDE_DIR})
+set_target_properties(${PROJECT_NAME} PROPERTIES SUFFIX ".so")
