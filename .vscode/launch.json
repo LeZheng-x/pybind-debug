@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python C++ Debug",
+        "type": "pythoncpp",
+        "request": "launch",
+        "pythonLaunchName": "Debugger for Python",
+        "cppAttachName": "(gdb) Attach",
+      },
+      {
+        "name": "(gdb) Attach",
+        "type": "cppdbg",
+        "request": "attach",
+        "processId": "",
+        "program": ""
+      },
+      {
+        "name": "Debugger for Python",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "main.py",
+        "console": "integratedTerminal"
+      }
+    ]
+  }
